@@ -6,7 +6,7 @@ fn input(s: String) -> String {
     use std::io;
     use std::io::Write;
     print!("{}",s);
-    io::stdout().flush().unwrap();
+    io::stdout().flush().expect("An Error Occured");
     let mut data = String::new();
     io::stdin().read_line(&mut data).unwrap();
     data }
