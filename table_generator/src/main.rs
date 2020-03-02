@@ -1,5 +1,6 @@
 use std::io;
 use std::io::Write;
+
 fn main() {
     println!("Welcome to Multiplication Table Generator");
     print!("Enter range of table: ");
